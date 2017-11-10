@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.mazen.streetgottalent.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/loginInput"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Login"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/mailInput"
+        android:layout_width="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp"
+        android:hint="E-mail"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/passInput"
+        android:layout_width="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/rePassInput"
+        android:layout_width="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="40dp"
+        android:hint="Re-enter password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Register"
+        android:textColor="#fff"
+        android:backgroundTint="@color/Teal"
+        />
+
+</LinearLayout>
