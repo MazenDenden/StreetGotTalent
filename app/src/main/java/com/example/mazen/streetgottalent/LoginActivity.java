@@ -15,7 +15,7 @@ import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText loginInput, passInput;
+    EditText mailInput, passInput;
     Button loginBtn, gmailBtn;
     TextView textView, textView3, textView4;
     ImageView imageView6, userImage, lockImage, imageView7;
@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        loginInput = (EditText) findViewById(R.id.loginInput);
+        mailInput = (EditText) findViewById(R.id.mailInput);
         passInput = (EditText) findViewById(R.id.passInput);
         loginBtn = (Button) findViewById(R.id.loginBtn);
         gmailBtn = (Button) findViewById(R.id.gmailBtn);
