@@ -24,9 +24,6 @@ import com.android.volley.toolbox.Volley;
 import java.util.HashMap;
 import java.util.Map;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
     public static final String LOGIN_URL = "http://172.16.65.238/streetgottalent/login.php";
